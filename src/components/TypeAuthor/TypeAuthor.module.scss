@@ -1,0 +1,22 @@
+@import '../../scss/variables';
+
+.link {
+    &:hover .task,
+    &:hover .author {
+        color: $footer;
+    }
+}
+
+.task {
+    display: -webkit-box;
+    font-weight: $bold;
+    text-overflow: ellipsis;
+    -webkit-line-clamp: 1;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+}
+
+.author {
+    font-size: $O7;
+    color: $lightGrey;
+}

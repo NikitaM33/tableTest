@@ -1,0 +1,23 @@
+@import '../../scss/variables';
+
+.link {
+
+    &:hover .account,
+    &:hover .terminal {
+        color: $footer;
+    }
+}
+
+.account {
+    display: -webkit-box;
+    font-weight: $bold;
+    text-overflow: ellipsis;
+    -webkit-line-clamp: 1;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+}
+
+.terminal {
+    font-size: $O7;
+    color: $lightGrey;
+}

@@ -1,0 +1,17 @@
+@import '../../scss/variables';
+
+.link {
+    &:hover .number,
+    &:hover .created {
+        color: $footer;
+    }
+}
+
+.number {
+    font-weight: $bold;
+}
+
+.created {
+    font-size: $O7;
+    color: $lightGrey;
+}
